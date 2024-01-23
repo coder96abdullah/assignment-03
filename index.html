@@ -1,95 +1,118 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sports site</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- </head>
- <body>
-    <header class="max-w-6xl mx-auto">
-      <nav>
+<!DOCTYPE html>
+<html lang="en">
 
-      </nav>
-     <div class="relative">
-      <div class="carousel w-full mt-10">
-        <div id="slide1" class="carousel-item relative w-full">
-          <img src="Images/1.png" class="w-full" />
-          
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle">❮</a> 
-            <a href="#slide2" class="btn btn-circle">❯</a>
-          </div>
-        </div> 
-        <div id="slide2" class="carousel-item relative w-full">
-          <img src="https://media.gettyimages.com/id/1396225455/photo/kingston-upon-thames-england-the-wsl-trophy-is-pictured-during-the-barclays-fa-womens-super.jpg?s=612x612&w=0&k=20&c=15EvclfsjvVpWmgAVXgIZgdDPpBb4aBWSpmUByICjSU=" class="w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle">❮</a> 
-            <a href="#slide1" class="btn btn-circle">❯</a>
-          </div>
-          
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports site</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-      </div>
-     </div>
-     <div class="bg-black lg:w-[502px] lg:absolute lg:bottom-7 lg:right-52 p-8 rounded-2xl ">
-        <h3 class="font-extrabold text-white text-2xl space-y-2 mb-2">Meet all the heroes from the field</h3>
-       <p class="text-white font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>  
-    </div>
-    </div>
-     </div>
-    </header>
-    <main class="max-w-6xl mx-auto">
-        <section class="my-14">
-            <div class="flex flex-col lg:flex-row text-center space-y-">
-             <div>   
-            <div class="radial-progress text-red-500" style="--value:80;" role="progressbar"><span class="text-black">87%</span></div>
-             <h3 class="font-semibold text-xl">Prayer Facility</h3>
-             <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
-             </div>
-             <div>   
-                <div class="radial-progress text-green-500" style="--value:80;" role="progressbar"><span class="text-black">95%</span></div>
-                 <h3 class="font-semibold text-xl">Prayer Facility</h3>
-                 <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
-                 </div>
-                 <div>   
-                    <div class="radial-progress text-yellow-500" style="--value:80;" role="progressbar"><span class="text-black">90%</span></div>
-                     <h3 class="font-semibold text-xl">Prayer Facility</h3>
-                     <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
-                     </div>
-                     <div>   
-                        <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
-                         <h3 class="font-semibold text-xl">Prayer Facility</h3>
-                         <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
-                         </div>
-            </div>
-        </section>
-        <section>
-          <div class="flex gap-5 flex-col lg:flex-row ">
-          <div class="card w-full bg-base-100 shadow-xl image-full">
-            <figure><img src="Images/2.png" alt="Shoes" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
+<body>
+  <header class="max-w-6xl mx-auto">
+    <nav class="flex justify-evenly lg:justify-between items-center py-9">
+      <div class="flex items-center">
+        <div class="navbar bg-base-100 lg:hidden">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                </svg>
               </div>
-            </div>
-          </div>
-          <div class="card w-full bg-base-100 shadow-xl image-full">
-            <figure><img src="Images/3.png" alt="Shoes" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
-              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="card w-full bg-base-100 mt-5 shadow-xl image-full">
-          <figure><img src="Images/4.png" alt="Shoes" /></figure>
+        <h1>Hockey<span class="text-red-600">’</span>s</h1>
+      </div>
+      <div class="hidden lg:block space-x-6">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Pages</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+
+      </div>
+      <div class="space-x-3">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button class="btn btn-primary">Get Ticket</button>
+      </div>
+    </nav>
+
+
+    <div class="relative">
+      <div class="carousel w-full max-h-[550px] mt-10">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img
+            src="https://media.gettyimages.com/id/1396225455/photo/kingston-upon-thames-england-the-wsl-trophy-is-pictured-during-the-barclays-fa-womens-super.jpg?s=612x612&w=0&k=20&c=15EvclfsjvVpWmgAVXgIZgdDPpBb4aBWSpmUByICjSU="
+            class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-black lg:w-[502px] lg:absolute lg:bottom-7 lg:right-5 p-8 rounded-2xl ">
+        <h3 class="font-extrabold text-white text-2xl space-y-2 mb-2">Meet all the heroes from the field</h3>
+        <p class="text-white font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+          dolor. Purus urna in sit nullam proin. </p>
+      </div>
+    </div>
+
+  </header>
+  <main class="max-w-6xl mx-auto">
+    <section class="my-14">
+      <div class="flex flex-col lg:flex-row text-center space-y-">
+        <div>
+          <div class="radial-progress text-red-500" style="--value:80;" role="progressbar"><span
+              class="text-black">87%</span></div>
+          <h3 class="font-semibold text-xl">Prayer Facility</h3>
+          <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div>
+          <div class="radial-progress text-green-500" style="--value:80;" role="progressbar"><span
+              class="text-black">95%</span></div>
+          <h3 class="font-semibold text-xl">Prayer Facility</h3>
+          <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div>
+          <div class="radial-progress text-yellow-500" style="--value:80;" role="progressbar"><span
+              class="text-black">90%</span></div>
+          <h3 class="font-semibold text-xl">Prayer Facility</h3>
+          <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div>
+          <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar"><span
+              class="text-black">80%</span></div>
+          <h3 class="font-semibold text-xl">Prayer Facility</h3>
+          <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flex gap-5 flex-col lg:flex-row ">
+        <div class="card w-full bg-base-100 shadow-xl image-full">
+          <figure><img src="Images/2.png" alt="Shoes" /></figure>
           <div class="card-body">
             <h2 class="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -98,226 +121,324 @@
             </div>
           </div>
         </div>
-        </section>
-        <section class="grid grid-cols-1 my-10 lg:grid-cols-2 gap-5">
-          <div class="hero rounded-2xl border">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="Images/5.png" class="max-w-sm rounded-lg " />
-              <div>
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                <span>5.0</span>
-                <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
-                <span>20</span>
-                <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
-                <span>200</span>
-                <h1 class="text-xl font-bold">Box Office News!</h1>
-                <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <span>Price - $22.00</span>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>Delivery Fee : Free</span>
-              </div>
-            </div>
-          </div>
-          <div class="hero rounded-2xl border">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="Images/6.png" class="max-w-sm rounded-lg " />
-              <div>
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                <span>5.0</span>
-                <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
-                <span>20</span>
-                <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
-                <span>200</span>
-                <h1 class="text-xl font-bold">Box Office News!</h1>
-                <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <span>Price - $22.00</span>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>Delivery Fee : Free</span>
-              </div>
-            </div>
-          </div>
-          <div class="hero rounded-2xl border">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="Images/7.png" class="max-w-sm rounded-lg " />
-              <div>
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                <span>5.0</span>
-                <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
-                <span>20</span>
-                <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
-                <span>200</span>
-                <h1 class="text-xl font-bold">Box Office News!</h1>
-                <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <span>Price - $22.00</span>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>Delivery Fee : Free</span>
-              </div>
-            </div>
-          </div>
-          <div class="hero rounded-2xl border">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="Images/8.png" class="max-w-sm rounded-lg " />
-              <div>
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                <span>5.0</span>
-                <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
-                <span>20</span>
-                <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
-                <span>200</span>
-                <h1 class="text-xl font-bold">Box Office News!</h1>
-                <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <span>Price - $22.00</span>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>Delivery Fee : Free</span>
-              </div>
-            </div>
-          </div>
-          <div class="hero rounded-2xl border">
-            <div class="hero-content flex-col lg:flex-row">
-              <img src="Images/9.png" class="max-w-sm rounded-lg " />
-              <div>
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                <span>5.0</span>
-                <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
-                <span>20</span>
-                <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
-                <span>200</span>
-                <h1 class="text-xl font-bold">Box Office News!</h1>
-                <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <span>Price - $22.00</span>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>Delivery Fee : Free</span>
-              </div>
-            </div>
-          </div>
-          <div class="hero rounded-2xl border">
-            <div class="hero-content flex-col lg:flex-row gap-9 ">
-              <img src="Images/10.png" class="max-w-sm rounded-lg " />
-              <div>
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                <span>5.0</span>
-                <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
-                <span>20</span>
-                <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
-                <span>200</span>
-                <h1 class="text-xl font-bold">Box Office News!</h1>
-                <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <span>Price - $22.00</span>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>Delivery Fee : Free</span>
-              </div>
-            </div>
-          </div>
-        </section>
-       <section>
-        <div class="hero border rounded-2xl">
-          <div class="hero-content flex-col lg:flex-row gap-9">
-            <img src="Images/11.png" class="max-w-sm rounded-lg shadow-2xl" />
-            <div class="space-y-7">
-              <div class="collapse collapse-plus ">
-                <input type="radio" name="my-accordion-3" checked="checked" /> 
-                <div class="collapse-title text-xl font-bold">
-                  Our Equipment
-                </div>
-                <div class="collapse-content"> 
-                  <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
-                </div>
-                <hr>
-              </div>
-              <div class="collapse collapse-plus ">
-                <input type="radio" name="my-accordion-3" checked="checked" /> 
-                <div class="collapse-title text-xl font-bold">
-                  Our Equipment
-                </div>
-                <div class="collapse-content"> 
-                  <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
-                </div>
-                <hr>
-              </div>
-              <div class="collapse collapse-plus">
-                <input type="radio" name="my-accordion-3" checked="checked" /> 
-                <div class="collapse-title text-xl font-bold">
-                  Our Equipment
-                </div>
-                <div class="collapse-content"> 
-                  <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
-                </div>
-                <hr>
-              </div>
-              <div class="collapse collapse-plus">
-                <input type="radio" name="my-accordion-3" checked="checked" /> 
-                <div class="collapse-title text-xl font-bold">
-                  Our Equipment
-                </div>
-                <div class="collapse-content"> 
-                  <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
-                </div>
-                <hr>
-              </div>
-              <div class="collapse collapse-plus ">
-                <input type="radio" name="my-accordion-3" checked="checked" /> 
-                <div class="collapse-title text-xl font-bold">
-                  Our Equipment
-                </div>
-                <div class="collapse-content"> 
-                  <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
-                </div>
-                <hr>
-              </div>
-              <div class="collapse collapse-plus">
-                <input type="radio" name="my-accordion-3" checked="checked" /> 
-                <div class="collapse-title text-xl font-bold">
-                  Our Equipment
-                </div>
-                <div class="collapse-content"> 
-                  <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
-                </div>
-              
-              </div>
-             
+        <div class="card w-full bg-base-100 shadow-xl image-full">
+          <figure><img src="Images/3.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
             </div>
           </div>
         </div>
-       </section>
-       <section class="flex my-10 gap-10">
+      </div>
+      <div class="card w-full bg-base-100 mt-5 shadow-xl image-full">
+        <figure><img src="Images/4.png" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Shoes!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="grid grid-cols-1 my-10 lg:grid-cols-2 gap-5">
+      <div class="hero rounded-2xl border">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src="Images/5.png" class="max-w-sm rounded-lg " />
+          <div>
+            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            <span>5.0</span>
+            <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
+            <span>20</span>
+            <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
+            <span>200</span>
+            <h1 class="text-xl font-bold">Box Office News!</h1>
+            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <span>Price - $22.00</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Delivery Fee : Free</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero rounded-2xl border">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src="Images/6.png" class="max-w-sm rounded-lg " />
+          <div>
+            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            <span>5.0</span>
+            <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
+            <span>20</span>
+            <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
+            <span>200</span>
+            <h1 class="text-xl font-bold">Box Office News!</h1>
+            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <span>Price - $22.00</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Delivery Fee : Free</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero rounded-2xl border">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src="Images/7.png" class="max-w-sm rounded-lg " />
+          <div>
+            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            <span>5.0</span>
+            <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
+            <span>20</span>
+            <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
+            <span>200</span>
+            <h1 class="text-xl font-bold">Box Office News!</h1>
+            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <span>Price - $22.00</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Delivery Fee : Free</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero rounded-2xl border">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src="Images/8.png" class="max-w-sm rounded-lg " />
+          <div>
+            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            <span>5.0</span>
+            <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
+            <span>20</span>
+            <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
+            <span>200</span>
+            <h1 class="text-xl font-bold">Box Office News!</h1>
+            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <span>Price - $22.00</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Delivery Fee : Free</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero rounded-2xl border">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src="Images/9.png" class="max-w-sm rounded-lg " />
+          <div>
+            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            <span>5.0</span>
+            <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
+            <span>20</span>
+            <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
+            <span>200</span>
+            <h1 class="text-xl font-bold">Box Office News!</h1>
+            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <span>Price - $22.00</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Delivery Fee : Free</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero rounded-2xl border">
+        <div class="hero-content flex-col lg:flex-row gap-9 ">
+          <img src="Images/10.png" class="max-w-sm rounded-lg " />
+          <div>
+            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            <span>5.0</span>
+            <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
+            <span>20</span>
+            <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
+            <span>200</span>
+            <h1 class="text-xl font-bold">Box Office News!</h1>
+            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <span>Price - $22.00</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Delivery Fee : Free</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="hero border rounded-2xl">
+        <div class="hero-content flex-col lg:flex-row gap-9">
+          <img src="Images/11.png" class="max-w-sm rounded-lg shadow-2xl" />
+          <div class="space-y-7">
+            <div class="collapse collapse-plus ">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-bold">
+                Our Equipment
+              </div>
+              <div class="collapse-content">
+                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                  sagittis turpis in magna.</p>
+              </div>
+              <hr>
+            </div>
+            <div class="collapse collapse-plus ">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-bold">
+                Our Equipment
+              </div>
+              <div class="collapse-content">
+                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                  sagittis turpis in magna.</p>
+              </div>
+              <hr>
+            </div>
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-bold">
+                Our Equipment
+              </div>
+              <div class="collapse-content">
+                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                  sagittis turpis in magna.</p>
+              </div>
+              <hr>
+            </div>
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-bold">
+                Our Equipment
+              </div>
+              <div class="collapse-content">
+                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                  sagittis turpis in magna.</p>
+              </div>
+              <hr>
+            </div>
+            <div class="collapse collapse-plus ">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-bold">
+                Our Equipment
+              </div>
+              <div class="collapse-content">
+                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                  sagittis turpis in magna.</p>
+              </div>
+              <hr>
+            </div>
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-bold">
+                Our Equipment
+              </div>
+              <div class="collapse-content">
+                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
+                  sagittis turpis in magna.</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" my-10">
+      <div class="flex flex-col lg:flex-row gap-10">
         <div class="border rounded-2xl p-8 space-y-4">
-          <div class="rounded-2xl bg-green-100 p-8 w-[374px]">
+          <div class="rounded-2xl bg-green-100 p-8 w-full lg:w-[374px]">
             <img src="Images/Group 1171275317.png" alt="">
             <p>Phone Number : </p>
             <h5>(+62) 123-321-543</h5>
           </div>
-          <div class="rounded-2xl bg-green-100 p-8 w-[374px]">
-            <img src="Images/Group 1171275317.png" alt="">
+          <div class="rounded-2xl bg-green-100 p-8 w-full lg:w-[374px]">
+            <img src="Images/Group 1171275318.png" alt="">
             <p>Phone Number : </p>
             <h5>(+62) 123-321-543</h5>
           </div>
-          <div class="rounded-2xl bg-green-100 p-8 w-[374px]">
-            <img src="Images/Group 1171275317.png" alt="">
+          <div class="rounded-2xl bg-green-100 p-8 w-full lg:w-[374px]">
+            <img src="Images/Group 1171275319.png" alt="">
             <p>Phone Number : </p>
             <h5>(+62) 123-321-543</h5>
           </div>
         </div>
-        
 
-        <diV class="">
-          <h3>Your Name</h3>
-        <input type="text" placeholder="Type here" class="input input-bordered input-secondary w-full max-w-xs" />
-        <h3>Your Email</h3>
-        <input type="text" placeholder="Type here" class="input input-bordered input-secondary w-full max-w-xs" />
-        <h3>Subject</h3>
-        <input type="text" placeholder="Type here" class="input input-bordered input-secondary w-full max-w-xs" />
-        <h3>Phone Number</h3>
-        <input type="text" placeholder="Type here" class="input input-bordered input-secondary w-full max-w-xs" />
-        <h3>Message</h3>
-        <textarea class="textarea textarea-primary" placeholder="Bio"></textarea>
-        <button class="btn btn-primary">Send Message</button>
+
+        <diV class=" grid grid-cols-2 gap-5">
+          <div class="col-span-2 lg:col-span-1 w-11/12 mx-auto">
+            <h3 class="font-bold text-black text-xl">Your Name</h3>
+            <input type="text" placeholder="Enter your full name"
+              class="input rounded-2xl bg-slate-200 input-[#13131308] w-full pr-24" />
+          </div>
+          <div class="col-span-2 lg:col-span-1 w-11/12 mx-auto">
+            <h3 class="font-bold text-black text-xl">Your Email</h3>
+            <input type="text" placeholder="Enter your email"
+              class="input rounded-2xl bg-slate-200 input-[#13131308] w-full pr-24 " />
+          </div>
+          <div class="col-span-2 lg:col-span-1 w-11/12 mx-auto">
+            <h3 class="font-bold text-black text-xl">Subject</h3>
+            <input type="text" placeholder="Enter your subject"
+              class="input rounded-2xl bg-slate-200 input-[#13131308] w-full pr-24 " />
+          </div>
+          <div class="col-span-2 lg:col-span-1 w-11/12 mx-auto">
+            <h3 class="font-bold text-black text-xl">Phone Number</h3>
+            <input type="text" placeholder="Enter your phone number"
+              class="input rounded-2xl bg-slate-200 input-[#13131308] w-full pr-24 " />
+          </div>
+          <div class="col-span-2 row-span-4 w-11/12 mx-auto">
+            <h3 class="font-bold text-black text-xl">Message</h3>
+            <textarea class="textarea rounded-2xl bg-slate-200 input-[#13131308] w-full h-full"
+              placeholder="Write your message"></textarea>
+          </div>
+
+          <div class="col-span-2 mt-10 w-11/12 mx-auto">
+            <button class="btn btn-primary w-full">Send Message</button>
+          </div>
         </diV>
-       </section>
-    </main>
+      </div>
+      <div class="text-center bg-slate-200 rounded-2xl py-10 mt-5">
+        <h4 class="text-2xl font-extrabold">Social Media</h4>
+        <i class="fa-brands fa-facebook "></i>
+        <i class="fa-brands fa-instagram mx-3"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github ml-3"></i>
+      </div>
+    </section>
+  </main>
 
-    <footer>
+  <footer class=" p-10 bg-neutral text-white flex justify-center lg:justify-between flex-col lg:flex-row text-center lg:text-left gap-y-5">
+    <div>
+      <header class="footer-title">Get In Touch</header>
+      <p>Dit amet consectetur. Condimentum adipiscing aliquam<br> turpis placerat dolor. Purus urna in sit nullam proin.
+      </p>
+      <div>
+        <i class="fa-solid fa-envelope"></i>
+        <span class="text-base font-medium">hockeys@support.com</span>
+      </div>
+      <div>
+        <i class="fa-solid fa-phone"></i>
+        <span class="text-base font-medium">hockeys@support.com</span>
+      </div>
+    </div>
+    <div class="flex pl-36 gap-x-10 lg:gap-x-48 text-left ">
+       <div class="flex flex-col">
+      <header class="footer-title">Services</header>
+      <a class="  text-base font-normal">Branding</a>
+      <a class="  text-base font-normal">Design</a>
+      <a class=" text-base font-normal">Marketing</a>
+      <a class="  text-base font-normal">Advertisement</a>
+      <a class="  text-base font-normal">Advertisement</a>
+       </div>
+      <div class="flex flex-col">
+      <header class="footer-title">Company</header>
+      <a class=" text-base font-normal">About us</a>
+      <a class=" text-base font-normal">Contact</a>
+      <a class="  text-base font-normal">Jobs</a>
+      <a class="  text-base font-normal">Press kit</a>
+      </div>
+    </div>
+    <div class="flex flex-col">
+      <header class="footer-title">Legal</header>
+      <a class=" text-base font-normal">Terms of use</a>
+      <a class=" text-base font-normal">Privacy policy</a>
+      <a class=" text-base font-normal">Cookie policy</a>
+      <a class=" text-base font-normal">Advertisement</a>
+      <a class=" text-base font-normal">Advertisement</a>
+    </div>
+  </footer>
 
-    </footer>
-    
- </body>
- </html>
+</body>
+
+</html>
