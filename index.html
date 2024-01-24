@@ -14,7 +14,7 @@
 
 <body>
   <header class="max-w-6xl mx-auto">
-    <nav class="flex justify-evenly lg:justify-between items-center py-9">
+    <nav class="flex justify-between items-center py-9">
       <div class="flex items-center">
         <div class="navbar bg-base-100 lg:hidden">
           <div class="navbar-start">
@@ -26,7 +26,7 @@
                 </svg>
               </div>
               <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a>Home</a></li>
+                <li><a class="text-red-400">Home</a></li>
                 <li><a>About</a></li>
                 <li><a>Pages</a></li>
                 <li><a>Blog</a></li>
@@ -35,10 +35,10 @@
             </div>
           </div>
         </div>
-        <h1>Hockey<span class="text-red-600">’</span>s</h1>
+        <h1 class="font-extrabold text-4xl">Hockey<span class="text-red-600">’</span>s</h1>
       </div>
       <div class="hidden lg:block space-x-6">
-        <a href="#">Home</a>
+        <a class="text-red-400" href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Pages</a>
         <a href="#">Blog</a>
@@ -47,7 +47,7 @@
       </div>
       <div class="space-x-3">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <button class="btn btn-primary">Get Ticket</button>
+        <button class="btn btn-secondary px-6">Get Ticket</button>
       </div>
     </nav>
 
@@ -74,90 +74,92 @@
       </div>
       <div class="bg-black lg:w-[502px] lg:absolute lg:bottom-7 lg:right-5 p-8 rounded-2xl ">
         <h3 class="font-extrabold text-white text-2xl space-y-2 mb-2">Meet all the heroes from the field</h3>
-        <p class="text-white font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
-          dolor. Purus urna in sit nullam proin. </p>
+        <p class="text-slate-400 font-medium">In here you will find all the legend heros of the field. It is out commitment to make the best out of a general level </p>
       </div>
     </div>
 
   </header>
   <main class="max-w-6xl mx-auto">
+    <section class="my-10 text-center space-y-6">
+      <hr>
+      <h1 class="font-extrabold text-4xl pt-5">Professional Hockeys Club</h1>
+      <p class="font-medium text-base pb-5">This is a place where you will find only the best things </p>
+      <hr>
+    </section>
     <section class="my-14">
-      <div class="flex flex-col lg:flex-row text-center space-y-">
-        <div>
+      <div class="flex flex-col lg:flex-row text-center gap-3">
+        <div class="space-y-3">
           <div class="radial-progress text-red-500" style="--value:80;" role="progressbar"><span
               class="text-black">87%</span></div>
           <h3 class="font-semibold text-xl">Prayer Facility</h3>
-          <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <p class="font-normal text-base">We have a prayer place for male and female both</p>
         </div>
-        <div>
+        <div class="space-y-3">
           <div class="radial-progress text-green-500" style="--value:80;" role="progressbar"><span
               class="text-black">95%</span></div>
-          <h3 class="font-semibold text-xl">Prayer Facility</h3>
-          <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <h3 class="font-semibold text-xl">Experienced Coach</h3>
+          <p class="font-normal text-base">The player play under the care of experienced coach </p>
         </div>
-        <div>
+        <div class="space-y-3">
           <div class="radial-progress text-yellow-500" style="--value:80;" role="progressbar"><span
               class="text-black">90%</span></div>
-          <h3 class="font-semibold text-xl">Prayer Facility</h3>
-          <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <h3 class="font-semibold text-xl">Senior Player</h3>
+          <p class="font-normal text-base">We have different level of training</p>
         </div>
-        <div>
+        <div class="space-y-3">
           <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar"><span
               class="text-black">80%</span></div>
-          <h3 class="font-semibold text-xl">Prayer Facility</h3>
-          <p class="font-normal text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <h3 class="font-semibold text-xl">Training Ground</h3>
+          <p class="font-normal text-base">We have multiple special training ground</p>
         </div>
       </div>
     </section>
-    <section>
-      <div class="flex gap-5 flex-col lg:flex-row ">
-        <div class="card w-full bg-base-100 shadow-xl image-full">
-          <figure><img src="Images/2.png" alt="Shoes" /></figure>
-          <div class="card-body">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-        <div class="card w-full bg-base-100 shadow-xl image-full">
-          <figure><img src="Images/3.png" alt="Shoes" /></figure>
-          <div class="card-body">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card w-full bg-base-100 mt-5 shadow-xl image-full">
-        <figure><img src="Images/4.png" alt="Shoes" /></figure>
-        <div class="card-body">
-          <h2 class="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
-          </div>
-        </div>
-      </div>
+    <section class="my-10 text-center space-y-6">
+      <hr>
+      <h1 class="font-extrabold text-4xl pt-5">Program Sections</h1>
+      <p class="font-medium text-base pb-5">This is a place where you will find only the best things </p>
+      <hr>
     </section>
-    <section class="grid grid-cols-1 my-10 lg:grid-cols-2 gap-5">
+    <section class="text-white pl-3 lg:pl-0">
+      <div class="flex flex-col lg:flex-row gap-5 ">
+     <div class="bg-[url('Images/2.png')] rounded-2xl h-[338px] space-y-5 pt-28 pl-8 bg-no-repeat">
+         <h3 class="font-extrabold text-3xl">Junior Program</h3>
+         <p class="font-medium text-base">For age wise, we have different types program, specially for the people who is under 15 years </p>
+         <button class="rounded-lg bg-red-600 p-2">Register Now!</button>
+         </div>
+      <div class="bg-[url('Images/2.png')] rounded-2xl h-[338px] space-y-5 pt-28 pl-8 bg-no-repeat">
+        <h3 class="font-extrabold text-3xl">Teenager Program</h3>
+        <p class="font-medium text-base">For age wise, we have different types program, specially for the people who is under 21 years</p>
+        <button class="rounded-lg bg-red-600 p-2">Register Now!</button>
+     </div>
+     </div>
+
+     <div class="bg-[url('Images/4.png')] h-[338px] mt-5 rounded-2xl space-y-5 pt-28 pl-8  w-[97%] lg:w-full">
+      <h3 class="font-extrabold text-3xl">Professional Program</h3>
+        <p class="font-medium text-base w-[520px]">For age wise, we have different types program, specially for the people who is very skilled about this field</p>
+        <button class="rounded-lg bg-red-600 p-2">Register Now!</button>
+     </div>
+    </section>
+    <section class="my-10 text-center space-y-6">
+      <hr>
+      <h1 class="font-extrabold text-4xl pt-5">Our New Products</h1>
+      <p class="font-medium text-base pb-5">This is a place where you will find only the best things </p>
+      <hr>
+    </section>
+    <section class="grid grid-cols-1 my-10 lg:grid-cols-2 gap-5 w-[97%] lg:w-auto pl-3 lg:pl-0">
       <div class="hero rounded-2xl border">
         <div class="hero-content flex-col lg:flex-row">
           <img src="Images/5.png" class="max-w-sm rounded-lg " />
           <div>
             <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
             <span>5.0</span>
-            <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
-            <span>20</span>
-            <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
+            <i class="fa-solid fa-eye ml-2" style="color: #63E6BE;"></i>
+            <span class="mr-2">20</span>
+            <i class="fa-solid fa-heart " style="color: #74C0FC;"></i>
             <span>200</span>
             <h1 class="text-xl font-bold">Box Office News!</h1>
-            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <span>Price - $22.00</span>
+            <p class="py-6 text-base font-medium">We have different types of product and their quality is very good. you can buy it also</p>
+            <span class="text-red-500 mr-2">Price - $22.00</span>
             <i class="fa-solid fa-cart-shopping"></i>
             <span>Delivery Fee : Free</span>
           </div>
@@ -169,16 +171,15 @@
           <div>
             <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
             <span>5.0</span>
-            <i class="fa-solid fa-eye" style="color: #63E6BE;"></i>
-            <span>20</span>
+            <i class="fa-solid fa-eye ml-2" style="color: #63E6BE;"></i>
+            <span class="mr-2">20</span>
             <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
             <span>200</span>
-            <h1 class="text-xl font-bold">Box Office News!</h1>
-            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <span>Price - $22.00</span>
+            <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+            <p class="py-6 text-base font-medium">We have different types of product and their quality is very good. you can buy it also</p>
+            <span class="text-red-500 mr-2">Price - $22.00</span>
             <i class="fa-solid fa-cart-shopping"></i>
-            <span>Delivery Fee : Free</span>
+            <span >Delivery Fee : Free</span>
           </div>
         </div>
       </div>
@@ -192,12 +193,11 @@
             <span>20</span>
             <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
             <span>200</span>
-            <h1 class="text-xl font-bold">Box Office News!</h1>
-            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <span>Price - $22.00</span>
+            <h1 class="text-xl font-bold">Cap For Hockeys</h1>
+            <p class="py-6 text-base font-medium">We have different types of product and their quality is very good. you can buy it also</p>
+            <span class="text-red-500 mr-2">Price - $22.00</span>
             <i class="fa-solid fa-cart-shopping"></i>
-            <span>Delivery Fee : Free</span>
+            <span >Delivery Fee : Free</span>
           </div>
         </div>
       </div>
@@ -211,12 +211,11 @@
             <span>20</span>
             <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
             <span>200</span>
-            <h1 class="text-xl font-bold">Box Office News!</h1>
-            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <span>Price - $22.00</span>
+            <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+            <p class="py-6 text-base font-medium">We have different types of product and their quality is very good. you can buy it also</p>
+            <span class="text-red-500 mr-2">Price - $22.00</span>
             <i class="fa-solid fa-cart-shopping"></i>
-            <span>Delivery Fee : Free</span>
+            <span >Delivery Fee : Free</span>
           </div>
         </div>
       </div>
@@ -230,12 +229,11 @@
             <span>20</span>
             <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
             <span>200</span>
-            <h1 class="text-xl font-bold">Box Office News!</h1>
-            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <span>Price - $22.00</span>
+            <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+            <p class="py-6 text-base font-medium">We have different types of product and their quality is very good. you can buy it also</p>
+            <span class="text-red-500 mr-2">Price - $22.00</span>
             <i class="fa-solid fa-cart-shopping"></i>
-            <span>Delivery Fee : Free</span>
+            <span >Delivery Fee : Free</span>
           </div>
         </div>
       </div>
@@ -249,15 +247,20 @@
             <span>20</span>
             <i class="fa-solid fa-heart" style="color: #74C0FC;"></i>
             <span>200</span>
-            <h1 class="text-xl font-bold">Box Office News!</h1>
-            <p class="py-6 text-base font-medium">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <span>Price - $22.00</span>
+            <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+            <p class="py-6 text-base font-medium">We have different types of product and their quality is very good. you can buy it also</p>
+            <span class="text-red-500 mr-2">Price - $22.00</span>
             <i class="fa-solid fa-cart-shopping"></i>
             <span>Delivery Fee : Free</span>
           </div>
         </div>
       </div>
+    </section>
+    <section class="my-10 text-center space-y-6">
+      <hr>
+      <h1 class="font-extrabold text-4xl pt-5">Clients Question</h1>
+      <p class="font-medium text-base pb-5">This is a place where you will find only the best things</p>
+      <hr>
     </section>
     <section>
       <div class="hero border rounded-2xl">
@@ -270,63 +273,57 @@
                 Our Equipment
               </div>
               <div class="collapse-content">
-                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
-                  sagittis turpis in magna.</p>
+                <p class="font-normal text-base">We only use best equipment</p>
               </div>
               <hr>
             </div>
             <div class="collapse collapse-plus ">
-              <input type="radio" name="my-accordion-3" checked="checked" />
+              <input type="radio" name="my-accordion-3"  />
               <div class="collapse-title text-xl font-bold">
-                Our Equipment
+                Hockey Training
               </div>
               <div class="collapse-content">
-                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
-                  sagittis turpis in magna.</p>
+                <p class="font-normal text-base">In every week we have regular training</p>
               </div>
               <hr>
             </div>
             <div class="collapse collapse-plus">
-              <input type="radio" name="my-accordion-3" checked="checked" />
+              <input type="radio" name="my-accordion-3"  />
               <div class="collapse-title text-xl font-bold">
-                Our Equipment
+                Private Lessons
               </div>
               <div class="collapse-content">
-                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
-                  sagittis turpis in magna.</p>
+                <p class="font-normal text-base">If anybody want, we also offering private lesson also</p>
               </div>
               <hr>
             </div>
             <div class="collapse collapse-plus">
-              <input type="radio" name="my-accordion-3" checked="checked" />
+              <input type="radio" name="my-accordion-3"  />
               <div class="collapse-title text-xl font-bold">
-                Our Equipment
+                Ski Touring
               </div>
               <div class="collapse-content">
-                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
-                  sagittis turpis in magna.</p>
+                <p class="font-normal text-base">This is our another part on training<p>
               </div>
               <hr>
             </div>
             <div class="collapse collapse-plus ">
-              <input type="radio" name="my-accordion-3" checked="checked" />
+              <input type="radio" name="my-accordion-3" />
               <div class="collapse-title text-xl font-bold">
-                Our Equipment
+                Booking
               </div>
               <div class="collapse-content">
-                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
-                  sagittis turpis in magna.</p>
+                <p class="font-normal text-base">You can book using online payment or cash also</p>
               </div>
               <hr>
             </div>
             <div class="collapse collapse-plus">
-              <input type="radio" name="my-accordion-3" checked="checked" />
+              <input type="radio" name="my-accordion-3"  />
               <div class="collapse-title text-xl font-bold">
-                Our Equipment
+                Pricings
               </div>
               <div class="collapse-content">
-                <p class="font-normal text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim
-                  sagittis turpis in magna.</p>
+                <p class="font-normal text-base">We are offering best prize for every level of customer</p>
               </div>
 
             </div>
@@ -334,6 +331,12 @@
           </div>
         </div>
       </div>
+    </section>
+    <section class="my-10 text-center space-y-6">
+      <hr>
+      <h1 class="font-extrabold text-4xl pt-5">Get In Touch</h1>
+      <p class="font-medium text-base pb-5">This is a place where you will find only the best things </p>
+      <hr>
     </section>
     <section class=" my-10">
       <div class="flex flex-col lg:flex-row gap-10">
@@ -349,7 +352,7 @@
             <h5>(+62) 123-321-543</h5>
           </div>
           <div class="rounded-2xl bg-green-100 p-8 w-full lg:w-[374px]">
-            <img src="Images/Group 1171275319.png" alt="">
+            <img src="Images/Group 1171275321.png" alt="">
             <p>Phone Number : </p>
             <h5>(+62) 123-321-543</h5>
           </div>
@@ -398,7 +401,8 @@
     </section>
   </main>
 
-  <footer class=" p-10 bg-neutral text-white flex justify-center lg:justify-between flex-col lg:flex-row text-center lg:text-left gap-y-5">
+  <footer
+    class=" p-10 bg-neutral text-white flex justify-center lg:justify-between flex-col lg:flex-row text-center lg:text-left gap-y-5">
     <div>
       <header class="footer-title">Get In Touch</header>
       <p>Dit amet consectetur. Condimentum adipiscing aliquam<br> turpis placerat dolor. Purus urna in sit nullam proin.
@@ -413,20 +417,20 @@
       </div>
     </div>
     <div class="flex pl-36 gap-x-10 lg:gap-x-48 text-left ">
-       <div class="flex flex-col">
-      <header class="footer-title">Services</header>
-      <a class="  text-base font-normal">Branding</a>
-      <a class="  text-base font-normal">Design</a>
-      <a class=" text-base font-normal">Marketing</a>
-      <a class="  text-base font-normal">Advertisement</a>
-      <a class="  text-base font-normal">Advertisement</a>
-       </div>
       <div class="flex flex-col">
-      <header class="footer-title">Company</header>
-      <a class=" text-base font-normal">About us</a>
-      <a class=" text-base font-normal">Contact</a>
-      <a class="  text-base font-normal">Jobs</a>
-      <a class="  text-base font-normal">Press kit</a>
+        <header class="footer-title">Services</header>
+        <a class="  text-base font-normal">Branding</a>
+        <a class="  text-base font-normal">Design</a>
+        <a class=" text-base font-normal">Marketing</a>
+        <a class="  text-base font-normal">Advertisement</a>
+        
+      </div>
+      <div class="flex flex-col">
+        <header class="footer-title">Company</header>
+        <a class=" text-base font-normal">About us</a>
+        <a class=" text-base font-normal">Contact</a>
+        <a class="  text-base font-normal">Jobs</a>
+        <a class="  text-base font-normal">Press kit</a>
       </div>
     </div>
     <div class="flex flex-col">
